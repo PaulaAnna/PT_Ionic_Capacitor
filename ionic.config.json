@@ -1,0 +1,8 @@
+{
+  "name": "ionic-virtual-infinite-scroll-list",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ionic-virtual-infinite-scroll-list</string>
+    <string name="title_activity_main">ionic-virtual-infinite-scroll-list</string>
+    <string name="package_name">at.test.paula</string>
+    <string name="custom_url_scheme">at.test.paula</string>
+</resources>

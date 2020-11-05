@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="primary">
+      <ion-button color="secondary" routerLink="/home">
+        <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Scroll List</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-list>
+    <ion-virtual-scroll [items]="dataList">
+      <ion-item *virtualItem="let item">
+        <ion-label>
+          <h2>{{item.name}} {{item.id}}</h2>
+        </ion-label>
+      </ion-item>
+    </ion-virtual-scroll>
+  </ion-list>
+
+</ion-content>
